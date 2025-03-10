@@ -6,11 +6,13 @@ A Python library for query refinement and code generation using CodeBERT, CodeT5
 
 ```bash
 pip install queryrefiner
+```
 
-# Usage
+## Usage
 
 ```python
 from queryrefiner import QueryRefiner
+```
 
 # Initialize QueryRefiner
 refiner = QueryRefiner(code_model="codellama/CodeLlama-7b-hf", device=0)
@@ -40,19 +42,23 @@ datasets >= 2.0.0
 ```bash
 git clone https://github.com/laqeey/queryrefiner.git
 cd queryrefiner
+```
 
 ### Install Dependencies
 
 ```bash
 pip install -e .
+```
 
 ### Run Tests
 ```bash
 python -m unittest discover -s tests
+```
 
 ### Run Examples
 ```bash
 python examples/example_usage.py
+```
 
 # License
 MIT License.
